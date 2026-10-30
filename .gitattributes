@@ -1,0 +1,19 @@
+# Set the default behavior to handle all files as text and normalize line endings to LF on check-in.
+* text=auto
+
+# Explicitly declare text files to be normalized and checked out with native line endings
+*.html text
+*.css text
+*.js text
+*.json text
+*.md text
+
+# Explicitly declare binary files that should not be normalized
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+
